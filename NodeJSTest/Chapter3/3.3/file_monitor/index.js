@@ -27,7 +27,7 @@ var app = http.createServer(function(req, res) {
 	httpParam.init(req, res);
 	if (pathname == '/favicon.ico') {
 		return;
-	}
+	} 
 	switch (pathname) {
 	case '/':
 		defaultIndex(res);
@@ -40,9 +40,10 @@ var app = http.createServer(function(req, res) {
 	}
 }).listen(1337);
 
-io=socket.listen(app);
-io.sockets.on('connection',function(socket){
+var io=socket.listen(app); 
+io.sockets.on('connection',function(socket){ 
 	var message=fs.readFileSync(filePath,'utf8');
+	console.log(message);
 	socket.emit('change_from_server',{msg:message});
 	socket.on('data',function(data){
 		writeFile(data.msg,function(){
@@ -58,6 +59,7 @@ function writeFile(msg,callback){
 	});
 }
 
-function defaultIndex(res){
+function defaultIndex(res){ 
+	console.log(res);
 	res.render('index.jade',{'user':'Karl'});
 }

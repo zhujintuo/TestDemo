@@ -1,3 +1,4 @@
+console.log("sfdsdf");
 var socket=io.connect('http://127.0.0.1:1337');
 socket.on('change_from_server',function(data){
 	$('textarea').attr('value',data.msg);
