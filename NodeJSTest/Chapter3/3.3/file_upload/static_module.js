@@ -35,7 +35,6 @@ exports.getStaticFile=function(pathname, res, req){
 				res.setHeader('Cache-Control','max-age='+CACHE_TIME);
 			}
 			
-			
 			if (req.headers['if-modified-since'] && lastModified == req.headers['if-modified-since']) {
 				res.writeHead(304,'Not modified');
 				res.end();
