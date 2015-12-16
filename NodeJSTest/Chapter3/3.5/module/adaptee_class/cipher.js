@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var crypto = require('crypto');
 
 module.exports = function() {
@@ -23,3 +24,6 @@ module.exports = function() {
 		return decipher.final(returnType);
 	}
 }
+=======
+ 
+>>>>>>> 87551dd368a6c27309431e65b622d8d55efdb0ed

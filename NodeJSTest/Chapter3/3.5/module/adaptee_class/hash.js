@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  var crypto=require('crypto');
  module.exports=function(){ 
 	   this.encode = function(){
@@ -12,3 +13,6 @@
 			console.log('it has not decode function');
 		}
  }
+=======
+ 
+>>>>>>> 87551dd368a6c27309431e65b622d8d55efdb0ed

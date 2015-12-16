@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  /* hmac.js */
 var crypto = require('crypto');  
 module.exports = function (){
@@ -14,3 +15,6 @@ module.exports = function (){
 		console.log('it has not decode function');
 	}
 }
+=======
+ 
+>>>>>>> 87551dd368a6c27309431e65b622d8d55efdb0ed
