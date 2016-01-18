@@ -1,0 +1,8 @@
+E:\work\github\TestDemo\Test\Test.Console\bin\Debug\Test.Console.exe.config
+E:\work\github\TestDemo\Test\Test.Console\obj\Debug\Test.Console.csprojResolveAssemblyReference.cache
+E:\work\github\TestDemo\Test\Test.Console\bin\Debug\Test.Console.exe
+E:\work\github\TestDemo\Test\Test.Console\bin\Debug\Test.Console.pdb
+E:\work\github\TestDemo\Test\Test.Console\bin\Debug\Test.Common.dll
+E:\work\github\TestDemo\Test\Test.Console\bin\Debug\Test.Common.pdb
+E:\work\github\TestDemo\Test\Test.Console\obj\Debug\Test.Console.exe
+E:\work\github\TestDemo\Test\Test.Console\obj\Debug\Test.Console.pdb

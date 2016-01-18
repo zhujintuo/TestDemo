@@ -1,0 +1,5 @@
+E:\work\github\TestDemo\Test\Test.Common\bin\Debug\Test.Common.dll
+E:\work\github\TestDemo\Test\Test.Common\bin\Debug\Test.Common.pdb
+E:\work\github\TestDemo\Test\Test.Common\obj\Debug\Test.Common.csprojResolveAssemblyReference.cache
+E:\work\github\TestDemo\Test\Test.Common\obj\Debug\Test.Common.dll
+E:\work\github\TestDemo\Test\Test.Common\obj\Debug\Test.Common.pdb
